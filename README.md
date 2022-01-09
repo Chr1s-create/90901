@@ -19,20 +19,24 @@ Lerna,
 
  1. Clone repository to your local machine
  2. Open Folder
- 3. Install dependencies
+ 3. Install lerna dependencies
  ```bash
- npm install
+ npm install -D lerna
  ```
- 4. Navigate to .../90901/packages/client and run
+ 4. Bootstrap dependencies
+ ```bash
+ npx lerna bootstrap --hoist
+ ```
+ 5. Navigate to .../90901/packages/client and run
  ```bash
  npm run build
  ```
- 5. Navigate back to root folder .../90901
- 6. run app
+ 6. Navigate back to root folder .../90901
+ 7. run app
  ```bash
  npm start
  ```
- 7.Open App on localhost:3000
+ 8.Open App on localhost:3000
 
 
 

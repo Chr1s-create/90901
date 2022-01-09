@@ -35,7 +35,7 @@ Lerna,
  ```bash
  npm run server
  ```
- 7. Build next app
+ 7. Build next app (PLEASE WAIT THE PRODUCTION BUILD TO COMPLETE)
   ```bash
  npm run build
  ```

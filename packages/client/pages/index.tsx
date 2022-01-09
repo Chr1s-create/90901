@@ -163,8 +163,10 @@ export const browseByBrand = (vehicles: Vehicle[]) => {
   const newVehicles = filter(vehicles, ["remark", "new"]);
   const usedVehicles = filter(vehicles, ["remark", "used"]);
 
-  const uniqBrandByNew = uniqBy(newVehicles, "brand.id");
-  const uniqBrandByUsed = uniqBy(usedVehicles, "brand.id");
+  const uniqBrandByNew = uniqBy(newVehicles, "brand.name");
+  const uniqBrandByUsed = uniqBy(usedVehicles, "brand.name");
+
+  console.log(newVehicles);
 
   const BrowseByBrand = ({ data }: any) => {
     return (

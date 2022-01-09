@@ -36,7 +36,7 @@ const ProductCard: FC<Props> = ({ vehicle }) => {
         h={48}
         w="full"
         fit="cover"
-        src="https://listings-prod.tcimg.net/listings/6570/80/56/3GNKBHR44MS585680/ZTIFHMKL2AG3NRC67ETL4M4JA4-318.jpg"
+        src={vehicle.image}
         alt="kamote"
       />
       <Flex direction="column" p={4}>

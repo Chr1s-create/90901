@@ -16,10 +16,12 @@ export const vehicles = [
     },
     price: "1",
     remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/e30083a50f942327/2022-Hyundai-Accent-white-full_color-driver_side_front_quarter.png?h=350&w=700",
   },
   {
     id: uuidv4(),
-    modelName: "2022 hyundai selantra",
+    modelName: "2022 hyundai elantra",
     brand: {
       id: "a947f56d-f71c-473e-9a0b-0980da851221",
       name: "hyundai",
@@ -32,6 +34,8 @@ export const vehicles = [
     },
     price: "1",
     remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/917ba19d21e5fe04/2022-Hyundai-Elantra-white-full_color-driver_side_front_quarter.png?h=350&w=700",
   },
   {
     id: uuidv4(),
@@ -48,6 +52,8 @@ export const vehicles = [
     },
     price: "1",
     remark: "used",
+    image:
+      "https://listings-prod.tcimg.net/listings/51962/77/09/5NPEB4ACXEH870977/T2P47HSA4CV3CKQGJR5X5JW4HI-cr-540.jpg",
   },
   {
     id: uuidv4(),
@@ -64,6 +70,8 @@ export const vehicles = [
     },
     price: "1",
     remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/0d548cfdc0e46d44/2022-Hyundai-Tucson-silver-full_color-driver_side_front_quarter.png?h=350&w=700",
   },
   {
     id: uuidv4(),
@@ -80,10 +88,12 @@ export const vehicles = [
     },
     price: "1",
     remark: "used",
+    image:
+      "https://listings-prod.tcimg.net/listings/77763/30/09/KM8J3CA27HU540930/P5POHKCXFNYYR5IFDPGSD7ONW4-og-860.jpg",
   },
   {
     id: uuidv4(),
-    modelName: "2014 hyundai santa fe sport suv",
+    modelName: "2011 hyundai santa fe sport suv",
     brand: {
       id: "a947f56d-f71c-473e-9a0b-0980da851221",
       name: "hyundai",
@@ -96,6 +106,8 @@ export const vehicles = [
     },
     price: "1",
     remark: "used",
+    image:
+      "https://listings-prod.tcimg.net/listings/175576/43/96/5XYZGDABXBG029643/KFIXVCVZWAS7AEE4IUN4GGKLZM-og-860.jpg",
   },
   {
     id: uuidv4(),
@@ -112,6 +124,8 @@ export const vehicles = [
     },
     price: "1",
     remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/987bbcdebaa73822/2022-Honda-Ridgeline-silver-full_color-driver_side_front_quarter.png?h=350&w=700",
   },
   {
     id: uuidv4(),
@@ -128,6 +142,8 @@ export const vehicles = [
     },
     price: "1",
     remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/8cbd893c0ab6440f/2022-Honda-Pilot-silver-full_color-driver_side_front_quarter.png?h=350&w=700",
   },
   {
     id: uuidv4(),
@@ -139,12 +155,87 @@ export const vehicles = [
         "https://static.tcimg.net/vehicles/logo/605x384_full_color/00fea4dbe4426fc2/Honda.png?fill=solid&fit=fill&h=30&w=30",
     },
     classification: {
-      id: "73596013-e3a5-4e56-ae98-29709ec26912",
+      id: "c120c2e2-2f29-4587-9724-c0b0c71199de",
       name: "van",
     },
     price: "1",
     remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/930092a7727b7e35/2022-Honda-Odyssey-silver-full_color-driver_side_front_quarter.png?h=350&w=700",
   },
+  {
+    id: uuidv4(),
+    modelName: "2022 kia carnival",
+    brand: {
+      id: "2d57e442-2092-445a-babe-8f36911d30cc",
+      name: "kia",
+      image:
+        "https://static.tcimg.net/vehicles/logo/1629x384_full_color/638bbde84c5f569e/Kia.png?fill=solid&fit=fill&h=30&w=30",
+    },
+    classification: {
+      id: "32cce4e3-8027-444a-b07d-cb7ce05ea318",
+      name: "suv",
+    },
+    price: "1",
+    remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/9f6a1fe3890b3fcb/2022-Kia-Carnival-gray-full_color-driver_side_front_quarter.png?h=350&w=700",
+  },
+  {
+    id: uuidv4(),
+    modelName: "2022 kia rio",
+    brand: {
+      id: "2d57e442-2092-445a-babe-8f36911d30cc",
+      name: "kia",
+      image:
+        "https://static.tcimg.net/vehicles/logo/1629x384_full_color/638bbde84c5f569e/Kia.png?fill=solid&fit=fill&h=30&w=30",
+    },
+    classification: {
+      id: "74e1d962-0d8f-4d43-9380-1c8ca6b2fd04",
+      name: "sedan",
+    },
+    price: "1",
+    remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/8740972dc234feba/2022-Kia-Rio-white-full_color-driver_side_front_quarter.png?h=350&w=700",
+  },
+  {
+    id: uuidv4(),
+    modelName: "2019 kia optima",
+    brand: {
+      id: "2d57e442-2092-445a-babe-8f36911d30cc",
+      name: "kia",
+      image:
+        "https://static.tcimg.net/vehicles/logo/1629x384_full_color/638bbde84c5f569e/Kia.png?fill=solid&fit=fill&h=30&w=30",
+    },
+    classification: {
+      id: "74e1d962-0d8f-4d43-9380-1c8ca6b2fd04",
+      name: "sedan",
+    },
+    price: "1",
+    remark: "used",
+    image:
+      "https://listings-prod.tcimg.net/listings/214232/38/43/5XXGT4L36KG344338/P2ASK432WKALWYNEERNSR2JRHA-og-860.jpg",
+  },
+  {
+    id: uuidv4(),
+    modelName: "bmw z4",
+    brand: {
+      id: "8fe9a3e3-47dc-48b1-b676-1fc2bae79faf",
+      name: "bmw",
+      image:
+        "https://static.tcimg.net/vehicles/logo/384x384_full_color/614861eca7caf1b4/BMW.png?fill=solid&fit=fill&h=30&w=30",
+    },
+    classification: {
+      id: "45e66a02-46ce-4bd8-a0cf-402a2655c85a",
+      name: "convertible",
+    },
+    price: "1",
+    remark: "new",
+    image:
+      "https://static.tcimg.net/vehicles/primary/af94892d38a3cf77/2022-BMW-Z4-white-full_color-driver_side_front_quarter.png?h=350&w=700",
+  },
+
   // {
   //   id: uuidv4(),
   //   modelName: "2020 honda odyssey",

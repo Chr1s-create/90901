@@ -31,17 +31,18 @@ Lerna,
  ```bash
  npx lerna bootstrap --hoist
  ```
- 6. Navigate to .../90901/packages/client and run
+6. Run server app
  ```bash
+ npm run server
+ ```
+ 7. Build next app
+  ```bash
  npm run build
  ```
- 7. Navigate back to root folder .../90901
- 8. run app
+ 8. Run client app
  ```bash
- npm start
+ npm run client
  ```
- 9.Open App on localhost:3000
-
 
 
 

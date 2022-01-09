@@ -43,6 +43,7 @@ Lerna,
  ```bash
  npm run client
  ```
+ 9. On your browser go to localhost:3000 🥉
 
 
 
